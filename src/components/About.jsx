@@ -1,14 +1,13 @@
 import { Box, Grid, IconButton, Typography } from "@mui/material";
 import { GoogleMap, useLoadScript, Marker } from "@react-google-maps/api";
-import { AiFillInstagram } from 'react-icons/ai';
-import { FaTelegramPlane, FaYoutube } from 'react-icons/fa';
-
+import { AiFillInstagram } from "react-icons/ai";
+import { FaTelegramPlane, FaYoutube } from "react-icons/fa";
 
 const libraries = ["places"];
 const mapContainerStyle = {
   width: "100%",
   height: "100%",
-  borderRadius: '12px'
+  borderRadius: "12px",
 };
 const center = {
   lat: 40.138259142658725, // default latitude
@@ -52,15 +51,15 @@ export default function About() {
             Jizzax shahri, Rashidov ko'chasi <br /> (Asaka bank ro'parasi)
           </Typography>
         </Box>
-        <Box sx={{ display: 'flex', alignItems: 'center' }}>
-          <IconButton sx={{ backgroundColor: 'primary.main' }}>
-            <FaTelegramPlane style={{ color: 'white' }} />
+        <Box sx={{ display: "flex", alignItems: "center" }}>
+          <IconButton sx={{ backgroundColor: "primary.main" }}>
+            <FaTelegramPlane style={{ color: "white" }} />
           </IconButton>
-          <IconButton sx={{ backgroundColor: 'primary.main', mx: '5px' }}>
-            <AiFillInstagram style={{ color: 'white' }} />
+          <IconButton sx={{ backgroundColor: "primary.main", mx: "5px" }}>
+            <AiFillInstagram style={{ color: "white" }} />
           </IconButton>
-          <IconButton sx={{ backgroundColor: 'primary.main' }}>
-            <FaYoutube style={{ color: 'white' }} />
+          <IconButton sx={{ backgroundColor: "primary.main" }}>
+            <FaYoutube style={{ color: "white" }} />
           </IconButton>
         </Box>
       </Grid>

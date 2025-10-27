@@ -6,9 +6,7 @@ export default function WhyRealCode() {
   return (
     <Box sx={{ padding: "0 100px", mb: 8 }}>
       <Box>
-        <Typography variant="h3">
-          Nima uchun Real Code ?
-        </Typography>
+        <Typography variant="h3">Nima uchun Real Code ?</Typography>
         <Typography
           variant="subtitle1"
           sx={{ maxWidth: "700px", width: "100%", mb: 3 }}
@@ -20,7 +18,7 @@ export default function WhyRealCode() {
       <Grid container spacing={3}>
         <Grid item xs={4}>
           <Card>
-            <CardContent sx={{height: '390px', backgroundColor: '#f9fafb'}}>
+            <CardContent sx={{ height: "390px", backgroundColor: "#f9fafb" }}>
               <Box
                 sx={{
                   backgroundColor: "#041E42",
@@ -37,8 +35,10 @@ export default function WhyRealCode() {
                   style={{ color: "#fff", width: "45px", height: "45px" }}
                 />
               </Box>
-              <Typography variant="h4" mb={1}>Natijador kurslar</Typography>
-              <Typography variant="body1" sx={{color: "#7e7e7e"}}>
+              <Typography variant="h4" mb={1}>
+                Natijador kurslar
+              </Typography>
+              <Typography variant="body1" sx={{ color: "#7e7e7e" }}>
                 Kurs yakuniga faqatgina saralangan o'quvchilar yetib boradi va
                 maxsus amaliy mashg'ulotga jalb qilinadi
               </Typography>
@@ -47,8 +47,8 @@ export default function WhyRealCode() {
         </Grid>
         <Grid item xs={4}>
           <Card>
-            <CardContent sx={{backgroundColor: '#f9fafb'}}>
-            <Box
+            <CardContent sx={{ backgroundColor: "#f9fafb" }}>
+              <Box
                 sx={{
                   backgroundColor: "#041E42",
                   width: "90px",
@@ -64,8 +64,10 @@ export default function WhyRealCode() {
                   style={{ color: "#fff", width: "45px", height: "45px" }}
                 />
               </Box>
-              <Typography variant="h4" mb={1}>Mentorlar</Typography>
-              <Typography variant="body1" sx={{color: "#7e7e7e"}}>
+              <Typography variant="h4" mb={1}>
+                Mentorlar
+              </Typography>
+              <Typography variant="body1" sx={{ color: "#7e7e7e" }}>
                 Ustozlar haqiqiy praktik Xalqaro toifadagi Dasturchilar
                 hisoblanib, hozirda turli Xalqaro IT - kompaniyalarida faoliyat
                 yurutib kelishmoqda
@@ -75,8 +77,8 @@ export default function WhyRealCode() {
         </Grid>
         <Grid item xs={4}>
           <Card>
-            <CardContent sx={{backgroundColor: '#f9fafb'}}>
-            <Box
+            <CardContent sx={{ backgroundColor: "#f9fafb" }}>
+              <Box
                 sx={{
                   backgroundColor: "#041E42",
                   width: "90px",
@@ -92,8 +94,10 @@ export default function WhyRealCode() {
                   style={{ color: "#fff", width: "45px", height: "45px" }}
                 />
               </Box>
-              <Typography variant="h4" mb={1}>Intensiv ta'lim</Typography>
-              <Typography variant="body1" sx={{color: "#7e7e7e"}}>
+              <Typography variant="h4" mb={1}>
+                Intensiv ta'lim
+              </Typography>
+              <Typography variant="body1" sx={{ color: "#7e7e7e" }}>
                 Dasturlash uchun eng kerakli muhit va sharoitda Intensive ta`lim
                 oling, bunda o'quvchilar bor e'tiborlarini dasturlashga
                 qaratishadi
