@@ -20,11 +20,9 @@ export default function RealSlider() {
   return (
     <Box sx={{ width: "100%" }}>
       <div className="slider-container">
-        <Slider
-          {...settings}
-        >
+        <Slider {...settings}>
           {[...Array(15).keys()].map((_, index) => (
-            <div key={index} style={{  margin: '0 18px' }}>
+            <div key={index} style={{ margin: "0 18px" }}>
               <img width="200px" height="60px" src={img} alt="" />
             </div>
           ))}

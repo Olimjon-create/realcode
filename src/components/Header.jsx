@@ -20,10 +20,16 @@ export default function Header() {
         Zamonaviy kasblarni biz bilar o'rganing
       </Typography>
       <Box>
-        <Button size="large" variant="contained" sx={{ mr: 1 }}>
+        <Button
+          size="large"
+          variant="contained"
+          sx={{ mr: 1, background: "#f4ff4f4" }}
+        >
           Kurslar
         </Button>
-        <Button size="large" variant="outlined">Biz bilan bog'lanish</Button>
+        <Button size="large" variant="outlined">
+          Biz bilan bog'lanish
+        </Button>
       </Box>
     </Box>
   );

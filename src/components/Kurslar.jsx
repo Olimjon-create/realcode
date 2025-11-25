@@ -4,11 +4,11 @@ import { IoLogoJavascript } from "react-icons/io";
 import { BiLogoFlutter } from "react-icons/bi";
 import { DiNodejs } from "react-icons/di";
 import { TbBrandCSharp } from "react-icons/tb";
-
+import "./styles/BtnAbout.css";
 export default function Kurslar() {
   return (
     <Box sx={{ padding: "0 150px", mb: 8 }}>
-      <Typography variant="h3" mb={3}>
+      <Typography className="btn" variant="h3" mb={3}>
         Bizning Kurslar
       </Typography>
       <Grid container spacing={3}>
@@ -412,3 +412,5 @@ export default function Kurslar() {
     </Box>
   );
 }
+
+// examaples pure function
